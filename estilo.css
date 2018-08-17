@@ -1,0 +1,40 @@
+
+input[type='file']{
+	display: none;
+}
+
+
+#qunit{
+	display: none;
+	
+}
+.conteudo{
+	padding: 10px 10px 10px 40px;
+	font-size: 21px;
+	background-color: 
+
+}
+p{
+	margin: 0px 0px 0px 0px;
+	padding:  0px 0px 0px 0px;
+	color: #D3D3D3;
+}
+.paletadecores{
+	width: 30px;
+	height: 30px;
+	position: relative;
+	background-color: #121213;
+	display:inline-block;
+
+
+}
+#menu{
+	display: inline;
+}
+#paleta{
+	display: inline;
+}
+body
+{
+	background-color: #000000;
+}

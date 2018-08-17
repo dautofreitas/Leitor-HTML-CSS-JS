@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="estilo.css" />
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.0.1.css">
+	<script src="https://code.jquery.com/qunit/qunit-2.0.1.js"></script>
+	
+
+</head>
+<body>
+	<div id="qunit"></div>
+	<div class="row">
+		<div id="menu" class="col-sm-3 col-sm-push-9" >
+			<input class="menu" type="file" id="inputCSV"  onchange="pegaCSV(this)">
+			<button class="btn btn-primary menu" onclick="teste()">Testar</button>
+			<button class="btn btn-primary menu" onclick="fechar()">Fechar</button>
+			<div id="CSVsaida"></div>
+			<label for="inputCSV" id="adicionar" class="btn btn-primary menu">Adicionar</label>
+			<div class="paletadecores"></div>
+			<div class="paletadecores"></div>
+			<div class="paletadecores"></div>
+			<div class="paletadecores"></div>
+			<div class="paletadecores"></div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-8 col-sm-push-2">
+			<article id="texto" class = "conteudo"></article>			
+		</div>
+		
+	</div>		
+	<script src="TesteUnitJs.js"></script>
+	<script src="js.js"></script>
+</body>
+</html> 
